@@ -1,0 +1,12 @@
+Source: ros-indigo-tf2-web-republisher
+Section: misc
+Priority: extra
+Maintainer: Russell Toris <rctoris@wpi.edu>
+Build-Depends: debhelper (>= 7.0.50~), ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-roscpp, ros-indigo-tf, ros-indigo-tf2-ros
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-tf2-web-republisher
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-geometry-msgs, ros-indigo-roscpp, ros-indigo-tf, ros-indigo-tf2-ros
+Description: Republishing of Selected TFs
