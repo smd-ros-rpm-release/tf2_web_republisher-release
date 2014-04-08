@@ -1,0 +1,12 @@
+Source: ros-hydro-tf2-web-republisher
+Section: misc
+Priority: extra
+Maintainer: Russell Toris <rctoris@wpi.edu>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-actionlib, ros-hydro-actionlib-msgs, ros-hydro-catkin, ros-hydro-geometry-msgs, ros-hydro-roscpp, ros-hydro-tf, ros-hydro-tf2-ros
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-tf2-web-republisher
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-actionlib, ros-hydro-actionlib-msgs, ros-hydro-geometry-msgs, ros-hydro-roscpp, ros-hydro-tf, ros-hydro-tf2-ros
+Description: Republishing of Selected TFs
